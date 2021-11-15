@@ -6,11 +6,14 @@
 body {
   color: #757575;
   width: 1600px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a {
   text-decoration: none;
   color: #212121;
 }
+/*-------------header-----------*/
 .header {
   display: flex;
   justify-content: space-around;
@@ -63,6 +66,7 @@ a {
 .navigator__contakt-item a:hover {
   color: #2196f3;
 }
+/*-------------main titel-----------*/
 .section__titel {
   height: 660px;
   background: #2f303a;
@@ -98,6 +102,7 @@ a {
   font-size: 16px;
   line-height: 30px;
 }
+/*-------------about-----------*/
 .section__about-list {
   display: flex;
   justify-content: space-around;
@@ -128,6 +133,7 @@ a {
   color: #212121;
   margin-bottom: 10px;
 }
+/*-------------aboutus-----------*/
 .section__aboutus-h2 {
   height: 42px;
   left: 612px;
@@ -149,6 +155,7 @@ a {
   list-style: none;
   margin-bottom: 94px;
 }
+/*-------------team-----------*/
 .section__team {
   height: 648px;
   background: #f5f4fa;
@@ -211,6 +218,7 @@ a {
   color: #757575;
   padding-top: 10px;
 }
+/*-------------footer-----------*/
 .footer {
   height: 252px;
   background: #2f303a;
@@ -247,3 +255,4 @@ a {
 .footer__adress-item a:last-child {
   margin-bottom: 60px;
 }
+/*-------------portfolio-----------*/
