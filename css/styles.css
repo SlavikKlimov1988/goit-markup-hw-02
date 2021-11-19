@@ -67,6 +67,7 @@ body {
 /*--------hero---------*/
 .section__titel {
   background-color: var(--color-bacground);
+  text-align: center;
 }
 .section__titel-text {
   font-weight: 700;
@@ -75,6 +76,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-hover-footer-link);
+  padding-top: 200px;
+  margin: 30px 0;
 }
 .sectio__titel-button {
   width: 200px;
@@ -82,16 +85,23 @@ body {
   background: var(--color-button-link);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
   color: var(--color-hover-footer-link);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
   cursor: pointer;
+  margin-bottom: 200px;
 }
 /*--------about---------*/
+.section__about {
+}
 .section__about-list {
   list-style: none;
+}
+.section__about-item {
+  width: 270px;
 }
 .section__about-item-head {
   font-weight: 700;
@@ -100,12 +110,19 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color-text);
+  margin: 0;
+  padding-bottom: 10px;
 }
 .section__about-item-paragraf {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secendary-color-text);
+  margin: 0;
+}
+/*-------------aboutus-----------*/
+.section__aboutus {
+  width: 100%;
 }
 .section__aboutus-head {
   font-weight: 700;
@@ -117,11 +134,21 @@ body {
   list-style: none;
 }
 /*--------team---------*/
+.section__team {
+  background: var(--partfolio-btn);
+}
 .section__team-head {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.section__team-list {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  text-align: center;
 }
 .section__team-item {
   list-style: none;
@@ -135,15 +162,19 @@ body {
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--primary-color-text);
+  margin: 30px 0 0;
 }
 .section__team-position {
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--secendary-color-text);
+  padding-bottom: 30px;
+  margin: 10px 0 0;
 }
 /*--------footer---------*/
 .footer {
+  font-family: "Roboto", sans-serif;
   background-color: var(--color-bacground);
 }
 .footer__href {
@@ -164,6 +195,7 @@ body {
 }
 .footer__adress-list {
   list-style: none;
+  font-family: Roboto, sans-serif;
 }
 .footer__adress-ite-link {
   font-size: 14px;
@@ -234,6 +266,10 @@ body {
 .portfolio__cards-list {
   list-style: none;
 }
+.portfolio__list-item {
+  width: 370px;
+  border: 1px solid #eeeeee;
+}
 .portfolio__item-img {
   width: 370px;
   height: 294px;
@@ -244,10 +280,14 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-color-text);
+  padding: 0 24px;
+  margin: 20px 0 0;
 }
 .portfolio__list-item p {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--secendary-color-text);
+  padding: 0 24px;
+  margin: 4px 0 20px;
 }
