@@ -16,12 +16,9 @@ body {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   list-style: none;
-}
-
-.navigator__logo span {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.8;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .nav__studio {
@@ -36,7 +33,7 @@ body {
 .navigator__item-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color-text);
@@ -53,7 +50,7 @@ body {
 .navigator__contakt-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.8;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secendary-color-text);
@@ -76,8 +73,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-hover-footer-link);
-  padding-top: 200px;
-  margin: 30px 0;
 }
 .sectio__titel-button {
   width: 200px;
@@ -92,7 +87,6 @@ body {
   line-height: 1.8;
   letter-spacing: 0.06em;
   cursor: pointer;
-  margin-bottom: 200px;
 }
 /*--------about---------*/
 .section__about {
@@ -100,22 +94,17 @@ body {
 .section__about-list {
   list-style: none;
 }
-.section__about-item {
-  width: 270px;
-}
 .section__about-item-head {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color-text);
-  margin: 0;
-  padding-bottom: 10px;
 }
 .section__about-item-paragraf {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secendary-color-text);
   margin: 0;
@@ -127,7 +116,7 @@ body {
 .section__aboutus-head {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .section__aboutus-list {
@@ -140,7 +129,7 @@ body {
 .section__team-head {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .section__team-list {
@@ -159,32 +148,27 @@ body {
 .section__team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--primary-color-text);
-  margin: 30px 0 0;
 }
 .section__team-position {
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secendary-color-text);
-  padding-bottom: 30px;
-  margin: 10px 0 0;
 }
 /*--------footer---------*/
 .footer {
   background-color: var(--color-bacground);
 }
 .footer__href {
-  text-decoration: none;
-}
-.footer__href {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.8;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer__logo {
   color: var(--color-button-link);
@@ -192,13 +176,22 @@ body {
 .footer__studio {
   color: var(--color-hover-footer-link);
 }
+.footer__adress {
+  font-style: normal;
+}
 .footer__adress-list {
   list-style: none;
 }
-.footer__adress-ite-link {
-  font-family: "Roboto", sans-serif;
+.footer__adress-ite-link-ferst {
+  color: var(--color-hover-footer-link);
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer__adress-ite-link {
+  font-size: 14px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-footer-link);
   text-decoration: none;
@@ -210,10 +203,10 @@ body {
   color: var(--color-hover-footer-link);
 }
 /*--------portfoliio---------*/
-.portfolio__filter {
+.filter {
   list-style: none;
 }
-.portfolio__button {
+.filter__button {
   background: var(--partfolio-btn);
   border-radius: 4px;
   border: none;
@@ -221,23 +214,25 @@ body {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.portfolio__button-first {
-  width: 73px;
-  background: var(--partfolio-btn);
-  border-radius: 4px;
+.filter__button-first {
   border: none;
   cursor: pointer;
+  width: 73px;
+  background: var(--partfolio-btn);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.portfolio__button-therd {
+.filter__button-therd {
   width: 103px;
   background: var(--partfolio-btn);
   border-radius: 4px;
@@ -249,15 +244,15 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.portfolio__button:hover {
+.filter__button:hover {
   background-color: var(--color-button-link);
   color: var(--color-hover-footer-link);
 }
-.portfolio__button-therd:hover {
+.filter__button-therd:hover {
   background-color: var(--color-button-link);
   color: var(--color-hover-footer-link);
 }
-.portfolio__button-first:hover {
+.filter__button-first:hover {
   background-color: var(--color-button-link);
   color: var(--color-hover-footer-link);
 }
@@ -273,20 +268,16 @@ body {
   width: 370px;
   height: 294px;
 }
-.portfolio__list-item h2 {
+.portfolio__header {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-color-text);
-  padding: 0 24px;
-  margin: 20px 0 0;
 }
-.portfolio__list-item p {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--secendary-color-text);
-  padding: 0 24px;
-  margin: 4px 0 20px;
 }
